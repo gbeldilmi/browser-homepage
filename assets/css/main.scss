@@ -1,0 +1,55 @@
+---
+---
+// =============================================================================
+// Variables
+// =============================================================================
+$foreground: white;
+$background: black;
+$accent-color: brown;
+// =============================================================================
+// Styles
+// =============================================================================
+* {
+    color: inherit;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: $background;
+    color: $foreground;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+main {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 130rem;
+}
+section {
+    max-width: 30rem;
+    min-width: 10rem;
+    padding: 0.5rem;
+}
+h1 {
+    font-size: 1.5rem;
+    border-bottom: 2px solid $foreground;
+    text-align: right;
+}
+ul {
+    text-align: center;
+    list-style: none;
+}
+li {
+    display: inline-block;
+    margin: 0.5rem;
+}
+a {
+    text-decoration: none;
+    transition: all 0.2s ease-in-out 0s;
+    &:hover {
+        color: $accent-color;
+    }
+}

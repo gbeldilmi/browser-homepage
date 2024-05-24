@@ -1,0 +1,6 @@
+url: ".."
+baseurl: ""
+exclude: ['readme.md', '*.sh']
+sass:
+  style: compressed
+
